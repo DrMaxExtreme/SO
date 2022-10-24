@@ -9,4 +9,9 @@ public class Goods : ScriptableObject
     [SerializeField] private string _description;
     [SerializeField] private int _price;
     [SerializeField] private GameObject _prefub;
+
+    public void ShowInfo()
+    {
+        Debug.Log($"Название - {_label} | Описание - {_description} | Цена - {_price} ");
+    }
 }

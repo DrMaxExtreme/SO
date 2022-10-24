@@ -7,9 +7,9 @@ public class Shop : MonoBehaviour
     [SerializeField] private List<Goods> _goods;
     private void Start()
     {
-        foreach (var goods in _goods)
+        foreach (var good in _goods)
         {
-
+            good.ShowInfo();
         }
     }
 }

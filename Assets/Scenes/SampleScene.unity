@@ -221,6 +221,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _goods:
-  - {fileID: 11400000, guid: 9bce720fda4763d43acd133941545a7c, type: 2}
-  - {fileID: 11400000, guid: 5d0cfdc08bbfe9243b16b2482b6d09bb, type: 2}
-  - {fileID: 11400000, guid: 19d36864b7e2e544ab9381200911d4de, type: 2}
+  - {fileID: 11400000, guid: 142253d81d7dfcd49b8616dc0453c510, type: 2}

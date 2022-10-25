@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7d82321f784c644a91a052f704f6339, type: 3}
   m_Name: Apple
   m_EditorClassIdentifier: 
-  Label: 
-  Description: 
-  Price: 0
+  Label: Apple
+  Description: Nice)
+  Price: 15
   Prefub: {fileID: 0}
-  _calories: 0
+  _calories: 250

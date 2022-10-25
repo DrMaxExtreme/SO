@@ -2,16 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "new Goods", menuName = "Goods", order = 51)]
-public class Goods : ScriptableObject
-{
-    [SerializeField] private string _label;
-    [SerializeField] private string _description;
-    [SerializeField] private int _price;
-    [SerializeField] private GameObject _prefub;
 
-    public void ShowInfo()
-    {
-        Debug.Log($"Название - {_label} | Описание - {_description} | Цена - {_price} ");
-    }
+public abstract class Goods : ScriptableObject
+{
+    [SerializeField] protected string Label;
+    [SerializeField] protected string Description;
+    [SerializeField] protected int Price;
+    [SerializeField] protected GameObject Prefub;
+
+    public abstract void ShowInfo();
 }

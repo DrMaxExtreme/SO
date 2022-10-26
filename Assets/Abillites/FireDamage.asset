@@ -9,11 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7d82321f784c644a91a052f704f6339, type: 3}
-  m_Name: Apple
+  m_Script: {fileID: 11500000, guid: e1e4697b09aa36540bb0ad9a7c7c5b6c, type: 3}
+  m_Name: FireDamage
   m_EditorClassIdentifier: 
-  Label: Apple
-  Description: Nice)
-  Price: 15
-  Prefub: {fileID: 0}
-  _calories: 250
+  _placeLogic: {fileID: 0}
